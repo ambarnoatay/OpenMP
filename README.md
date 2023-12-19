@@ -14,27 +14,4 @@ o Separation distances should be > 0.0 and be valid numerical values
 o Charge should be a valid numerical value.
 o Point location should be made up of valid numerical values.
 • Make sure that your code checks for a location that may be the same as a point charge location.
-Sample Program Flow:
- Please enter the number of concurrent threads to use: 16
- Please enter the number of rows and columns in the N x M array: 100 100
- Please enter the x and y separation distances in meters: 0.01 0.03
- Please enter the common charge on the points in micro C: 0.02
-
- Please enter the location in space to determine the electric field (x y z) in meters: 1.0 2.0 3.0
- The electric field at (1.0, 2.0, 3.0) in V/m is
- Ex = x.xxxx * 10^y
- Ey = x.xxxx * 10^y
- Ez = x.xxxx * 10^y
- |E| = x.xxxx * 10^y
- The calculation took x.xxxx microsec!
- Do you want to enter a new location (Y/N)? Y
-
- Please enter the location in space to determine the electric field (x y z) in meters: 2.0 2.0 2.0
- The electric field at (2.0, 2.0, 2.0) in V/m is
- Ex = x.xxxx * 10^y
- Ey = x.xxxx * 10^y
- Ez = x.xxxx * 10^y
- |E| = x.xxxx * 10^y
- The calculation took x.xxxx microsec!
- Do you want to enter a new location (Y/N)? N
- Bye!
+
